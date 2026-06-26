@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #030303;
+    color: white;
+}
+
+.servicesHdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    margin-bottom: 50px;
+}
+
+.hdrMenu {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.hdrMenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.servicesHdr button {
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    background: #0A84FF;
+    color: white;
+    font-size: 100x;
+}
+
+.banner {
+    width: 84%;
+    margin: auto;
+    display: flex;
+    border-radius: 35px;
+    justify-content: space-between;
+    background: #141414;
+}
+
+.bannerLeft span {
+    color: #0A84FF;
+}
+
+.banner img {
+    width: 400px;
+    background: #000;
+}
+
+.bannerLeft h1 {
+    margin: 50px 0px;
+}
+
+.bannerLeft {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.ourServer {
+    width: 84%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.ourServerP {
+    margin: 20px 0px 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #050505;
+}
+
+.card {
+    width: 420px;
+    background: #151515;
+    border: 1px solid #2c2c2c;
+    border-radius: 22px;
+    padding: 35px;
+    text-align: center;
+    transition: .3s;
+}
+
+.card:hover {
+    border-color: #1e90ff;
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #bdbdbd;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list li {
+    color: #bdbdbd;
+    font-size: 13px;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 15px;
+}
+
+.list li::before {
+    content: "•";
+    color: #1e90ff;
+    position: absolute;
+    left: 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    padding: 8px 18px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #1e90ff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn span {
+    width: 30px;
+    height: 30px;
+    background: #1e90ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: #1e90ff;
+}
+
+.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 420px;
+}
+
+.footer {
+    width: 100%;
+    background: #090909;
+    border-top: 1px solid #262626;
+    padding: 50px 80px;
+    margin-top: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.logo img {
+    width: 170px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav a {
+    color: #d7d7d7;
+    text-decoration: none;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.nav a:hover {
+    color: #2d8cff;
+}
+
+.social {
+    display: flex;
+    gap: 12px;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.social a:hover {
+    background: #2d8cff;
+}
+
+.footer-info {
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #888;
+    font-size: 14px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #888;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #2d8cff;
+}
+
+.footer-info-left {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer-info-left div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
