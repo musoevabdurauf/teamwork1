@@ -430,4 +430,168 @@ body{
 
 .links a:hover{
     color:#2d8cff;
+    background: #030303;
+    color: white;
+}
+.header{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+}
+.mid{
+    display: flex;
+    gap: 50px;
+    font-size: 17px;
+}
+.header button{
+    font-size: 15px;
+    color: white;
+    background: #0A84FF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.mid a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.info{
+    width: 90%;
+    margin: auto;
+    /* margin-top: 50px; */
+    display: flex;
+    align-items: center;
+}
+.info h1{
+    font-size: 72px;
+    margin-top: -50px;
+    /* line-height: 100%; */
+    font-weight: 900;
+}
+.infotext{
+    width: 44%;
+}
+.infoimg{
+    width: 55%;
+
+}
+.infoimg img{
+    width: 100%;
+}
+.infotext p{
+    font-size: 20px;
+    width: 80%;
+    color: #FFFFFFCC;
+    margin-top: 30px;
+    line-height: 32px;
+}   
+.infotext button{
+    background: #0A84FF;
+    border:none;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.clients{
+    display: flex;
+    align-items: center;
+}
+.clients p{
+    margin-top: -2px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.reklam{
+    padding: 40px;
+    border: 1px solid #0A84FF ;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #8961FF;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+}
+.nastroyka{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.box img{
+    width: 100%;
+}
+.box{
+    width: 25%;
+}
+.questions{
+    width: 50%;
+    margin: auto;
+}
+.lorem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background: #141414;
+    padding: 30px 50px;
+    border-radius: 36px;
+}
+.lorem p{
+    font-size: 22px;
+}
+.lorem h2{
+    font-size: 40px;
+}
+.questions{
+    margin-top: 100px;
+    margin-bottom: 120px;
+
+}
+.questions h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.lorem1 p{
+    font-size: 18px;
+    margin-left: 100px;
+    color: #a8a6a6;
+    width: 75%;
+
+}
+.lorem1{
+    margin-top: 100px;
+    background: #141414;
+    padding: 30px 50px;
+    border-radius: 36px;
+    width: 100%;
+}
+.lorem1 h3{
+    margin-left: 100px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color:  #0A84FF;
+
+}
+.futer{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    margin-top: 50px;
+    justify-content: space-between;
 }
